@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/html 5 favicon.png" type="image/x-icon">
+  <title>Forms</title>
+</head>
+<!-- Video -- Coders Foundation (20,21,22,23) -->
+<body style="background-color: indianred;">
+    <form action="#" method="post">
+      Name:  <input type="text" name="name" placeholder="enter your name"> <br>
+      Email:  <input type="email" name="email" placeholder="enter your email"> <br>
+      password: <input type="password" name="password" placeholder="enter your password"> <br>
+    Number: <input type="number" name="phone number" placeholder="enter your phone number"><br>
+    date & time: <input type="datetime-local" name="date and time">
+    <br> <br>
+    
+    <div style="border: 1px solid; display: inline-block;padding: 10px;">
+     who are You? <br>
+    Rakib: <input type="checkbox" name="rakib"> <br>
+    Sajeb :<input type="checkbox" name="sakib"> <br>
+    Hakeb :<input type="checkbox" name="hakeb"> <br>
+    Sakib: <input type="checkbox" name="sakib"> 
+    </div>
+
+    <div>
+      <fieldset style="display: inline-block;">
+        <legend style="font-size: 20px;">Your NID card number?</legend>
+    695478123 <input type="radio" name=" nid card number"> <br>
+    194325679 <input type="radio" name=" nid card number"> <br>
+    732946891 <input type="radio" name=" nid card number"> <br>
+    531975349 <input type="radio" name=" nid card number"> <br>
+    642977813 <input type="radio" name=" nid card number"> <br>
+    467116984 <input type="radio" name=" nid card number"> <br>
+    568712495 <input type="radio" name=" nid card number"> <br>
+    327944697 <input type="radio" name=" nid card number"> <br> 
+  </fieldset>  
+</div>
+
+    select your favourite color : <input type="color" name="color" > <br> <br>
+    <input type="range" name="" > <br>
+    <input type="button" value="Button"> <br>
+    <button>Button</button> <br>
+    <input type="search" name="Search" > <br>
+    submit Your document <input type="file" name="document" ><br> <br>
+
+    <input type="image" src="/Images/IMG20220712191233.jpg" alt="nature" width="20%" height="20%"> <br><br>
+
+    <input type="search"> <button>search</button> <br><br>
+    Did you fill up your form wrong? reset now <input type="reset" value="reset now"> <br> <br>
+    <input type="submit" value="Send"> 
+    </form>
+    
+    <!-- "from" tag এর মাধ্যমে বিভিন্ন from তৈরি করা যায়। form এর শুধু input type পাল্টালেই বিভিন্ন রকম form তৈরি করা যায়। বিভিন্ন ধরনের input type আছে।যেমনঃ text,email,password,image,search,submit,reset,color,radio,checkbox,number,date and time   etc...  -->
+
+
+
+      
+  <div >
+    <fieldset style="display: inline; font-size: 23px;">
+   <legend>Enter Your Mobile company name:</legend>  
+    
+   <form action="#"  >
+      <select name="mobile company name"style="font-size: 20px;" >
+        <option value="mobile company name">huawei</option>
+        <option value="mobile company name">oppo</option>
+        <option value="mobile company name">vivo</option>
+        <option value="mobile company name" selected>iphone</option>
+        <option value="mobile company name">realme</option>
+        <option value="mobile company name">samsung</option>
+        <option value="mobile company name">asus</option>
+        <option value="mobile company name">htc</option>
+        <option value="mobile company name">Gionee</option>
+        <option value="mobile company name">itel</option>
+        <option value="mobile company name">Nokia</option>
+        <option value="mobile company name">blackberry</option>
+      </select>
+    </fieldset>
+    </form>
+</div> <br>
+
+<textarea cols="30" rows="10" placeholder="Enter Your Message Here"></textarea> <br>
+
+<div>
+  <center>
+<form action="php.js">
+  <fieldset style="display: inline-block;">
+    <legend><h2>Which Browser do you use ?</h2></legend>
+  <input type="text" list="browsers">
+  <datalist id="browsers">
+    <option value="Google Chrome"></option>
+    <option value="Microsoft EDGE"></option>
+    <option value="Internet Explorer"></option>
+    <option value="Mozila FireFox"></option>
+    <option value="Opera Mini"></option>
+  </datalist>
+</fieldset>
+</form>
+</center>
+</div>
+
+<div>
+  <fieldset style="display: inline-block; font-size: 20px;">
+  <legend>Contact Us</legend>
+  <form action="#">
+    <label for="fName">Full Name : </label>
+    <input type="text" id="fName" placeholder="Enter Your Full Name" required> <br>
+    <label for="email">Email : </label>
+    <input type="email" id="email" placeholder="Enter Your Email" required style="margin-left:38px ;"> <br>
+    <label for="Password">Password : </label>
+    <input type="Password" id="Password" placeholder="Enter Your Password" required style="margin-left:9px ;"> <br> <br>
+    <textarea cols="60" rows="5" placeholder="Enter Your Message Here !"></textarea> <br> <br>
+    <input type="submit" value="Send">
+  </fieldset>
+  </form>
+</div>
+
+</body>
+</html>
